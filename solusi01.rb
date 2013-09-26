@@ -6,7 +6,7 @@
 # maka kita akan memperoleh jumlah dari deret bilangan itu sebanyak 23. Hitunglah jumlah kelipatan 3 atau 5 dibawah 1000
 
 sum = 0
-(1..1000).each do |d|
+(1..999).each do |d|
   if d % 3 == 0 or d % 5 == 0
   	puts "#{d} untuk #{sum += d}" 
   end
